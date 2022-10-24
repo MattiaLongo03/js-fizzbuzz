@@ -1,7 +1,10 @@
-body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
     background-color: #083B4C;
 }
 
@@ -9,4 +12,42 @@ h1{
     text-align: center;
     color: white;
     font-size: 50px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.squares {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.sq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	background-color: gold;
+}
+
+.sq3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	background-color: salmon;
+}
+
+.sq5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	background-color: red;
 }
