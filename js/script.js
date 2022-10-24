@@ -1,8 +1,24 @@
-const eleSquares = document.querySelector('.squares');
-const eleTitle = document.querySelector('h1');
+const container_quadrati = document.querySelector('.container_quadrati');
+const quadrati = document.querySelector('.quadrati');
+const titolo = document.querySelector('h1');
+let i;
 
-eleTitle.addEventListener('click', function () {
+titolo.addEventListener('click', function () {
 	for (let i = 1; i <= 100; i++) {
-		eleSquares.innerHTML += `<div class="sq">${i}</div>`;
+        if(i % 3 == 0 && i % 5 !=0){
+            container_quadrati.innerHTML += `<div class="quadrati3">${"Fizz"}</div>`;
+        }
+
+        if(i % 5 == 0 && i % 3 !=0){
+            container_quadrati.innerHTML += `<div class="quadrati5">${"Buzz"}</div>`;
+        }
+
+        if(i % 3 == 0 && i % 5 == 0){
+            container_quadrati.innerHTML += `<div class="quadrati3-5">${"FizzBuzz"}</div>`;
+        }
+        else if(i % 3 !=0 && i %5 != 0){
+            container_quadrati.innerHTML += `<div class="quadrati">${i}</div>`;
+        }
+
 	}
 });

@@ -19,13 +19,13 @@ h1{
 	margin: 0 auto;
 }
 
-.squares {
+.container_quadrati {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
 }
 
-.sq {
+.quadrati {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -34,7 +34,7 @@ h1{
 	background-color: gold;
 }
 
-.sq3 {
+.quadrati3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -43,7 +43,7 @@ h1{
 	background-color: salmon;
 }
 
-.sq5 {
+.quadrati5 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -51,3 +51,13 @@ h1{
 	height: 5rem;
 	background-color: red;
 }
+
+.quadrati3-5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	background-color: blue;
+}
+
