@@ -1,5 +1,4 @@
 const container_quadrati = document.querySelector('.container_quadrati');
-const quadrati = document.querySelector('.quadrati');
 const titolo = document.querySelector('h1');
 
 titolo.addEventListener('click', function () {
@@ -18,6 +17,5 @@ titolo.addEventListener('click', function () {
         else if(i % 3 !=0 && i %5 != 0){
             container_quadrati.innerHTML += `<div class="quadrati">${i}</div>`;
         }
-
 	}
 });
