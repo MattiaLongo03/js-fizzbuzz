@@ -1,7 +1,6 @@
 const container_quadrati = document.querySelector('.container_quadrati');
 const quadrati = document.querySelector('.quadrati');
 const titolo = document.querySelector('h1');
-let i;
 
 titolo.addEventListener('click', function () {
 	for (let i = 1; i <= 100; i++) {
